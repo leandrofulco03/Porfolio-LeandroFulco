@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap" rel="stylesheet">
+    <!-- SCROLL REVEAL -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Leandro Fulco - Portfolio</title>
+</head>
+<body>
+    
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container nav_toggle">
+              <a class="navbar-brand" href="#">Portfolio</a>
+              <div class="toggles">
+                  <i id="bdark" class="fa-solid fa-toggle-off"></i>
+              </div>
+            </div>
+          </nav>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 190">
+            <path fill="#0066ff" fill-opacity="1" d="M0,96L48,85.3C96,75,192,53,288,42.7C384,32,480,32,576,58.7C672,85,768,139,864,160C960,181,1056,171,1152,149.3C1248,128,1344,96,1392,80L1440,64L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path>
+          </svg>
+    </header>
+    
+    <!-- BANNER -->
+    <section class="banner d-flex justify-content-center align-items-center flex-column text-center">
+        <h1>Leandro Fulco</h1>
+        <h2>Desarrollador <span>Frontend</span></h2>
+        <div class="job_icons mb-5">
+            <a href="https://www.linkedin.com/in/leandrofulco/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/leandrofulco03" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.behance.net/leandrofulco00" target="_blank"><i class="fa-brands fa-square-behance"></i></a>
+        </div>
+        <a href="#contact" class="myButton">Contáctame</a>
+    </section>
+
+    <main class="container d-flex flex-column justify-content-center align-items-center my-5">
+      <section class="about text-center">
+        <h1 class="fw-bold">Sobre mi</h1>
+        <div class="about_container light_container my-5">
+          <p>
+            Hola! Mi nombre es Leandro y actualmente resido en Buenos Aires, Argentina. 
+            Soy Desarrollador Frontend en búsqueda de mi primera experiencia laboral IT.
+            Recientemente he finalizado mis estudios en <a href="https://drive.google.com/file/d/18NudqfO8dvOynXxNzKLpAl-016F775fY/view?usp=sharing" target="_blank">CoderHouse</a> sobre la Carrera de Desarrollo Frontend React,
+            y también cuento con la certificación de Programador Web Full Stack de <a href="https://drive.google.com/file/d/1NENzfSL9BzR35-iABXkN1qiZtxvNyapg/view?usp=sharing" target="_blank">Digital House</a>, que me permitieron 
+            aprender diferentes herramientas sobre el desarrollo web.
+          </p>
+          <p>
+            Me considero una persona responsable y atenta, con mucho empeño y compromiso sobre los proyectos que me son asignados. Cuento con la innovación
+            necesaria para obtener los mejores resultados posibles y con muchas ganas de seguir aprendiendo nuevas tecnologías para profundizar mejor
+            mi carrera profesional.
+          </p>
+        </div>
+      </section>
+
+      <section class="skills">
+        <h1 class="text-center fw-bold">Habilidades</h1>
+        <div class="skills_container light_container my-5">
+          <h3>Lenguajes de programación:</h3>
+          <ul>
+            <li>
+              <img src="img/javascript.svg" alt="javascript">
+              <p>JavaScript</p>
+            </li>
+            <li>
+              <img src="img/php.svg" alt="php">
+              <p>PHP</p>
+            </li>
+          </ul>
+          <h3>Frontend:</h3>
+          <ul>
+            <li>
+              <img src="img/html-5.svg" alt="HTML">
+              <p>HTML</p>
+            </li>
+            <li>
+              <img src="img/css-3.svg" alt="CSS">
+              <p>CSS</p>
+            </li>
+            <li>
+              <img src="img/react.svg" alt="React">
+              <p>React</p>
+            </li>
+            <li>
+              <img src="img/bootstrap.svg" alt="Bootstrap">
+              <p>Bootstrap</p>
+            </li>
+            <li>
+              <img src="img/sass.png" alt="Sass">
+              <p>SASS</p>
+            </li>
+          </ul>
+          <h3>Base de datos:</h3>
+          <ul>
+            <li>
+              <img src="img/mysql.svg" alt="MySQL">
+              <p>MySQL</p>
+            </li>
+            <li>
+              <img src="img/firebase-.svg" alt="Firebase">
+              <p>Firebase</p>
+            </li>
+          </ul>
+          <h3>Otras herramientas:</h3>
+          <ul>
+            <li>
+              <img src="img/git.svg" alt="Git">
+              <p>Git</p>
+            </li>
+            <li>
+              <img src="img/github.svg" alt="GitHub">
+              <p>GitHub</p>
+            </li>
+            <li>
+              <img src="img/trello.svg" alt="Trello">
+              <p>Trello</p>
+            </li>
+            <li>
+              <img src="img/figma-logo.png" alt="Figma">
+              <p>Figma</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="projects">
+        <h1 class="fw-bold text-center">Proyectos</h1>
+        <div class="projects_container light_container my-5">
+          <div class="row">
+            <article class="row article_light p-1 pb-4 p-md-4 bg-tertiary border-radius-1em d-flex justify-content-between align-items-center">
+              <div class="project_img col-12 col-lg-5 my-4 my-lg-0">
+                <img src="img/phonix.png" alt="phonix">
+              </div>
+              <div class="project_description col-12 col-lg-7">
+                <h2 class="mb-3 fw-bold">
+                  Phonix 📲
+                  <span>Proyecto bajo el marco de CoderHouse</span>
+                </h2>
+                <p class="mb-4 mb-md-3">Proyecto final de la Carrera de Desarrollo Frontend React.</p>
+                <p class="mb-5 mb-md-4">Aplicación web que permite la compra de dispositivos móviles y accesorios.</p>
+                <h3>Tecnologías utilizadas:</h3>
+                <ul class="mb-3 tech_used">
+                  <li>React</li>
+                  <li>JavaScript</li>
+                  <li>Firebase</li>
+                  <li>Bootstrap</li>
+                </ul>
+                <div class="text-center text-md-start">
+                  <a href="https://phonixtech.netlify.app/" target="_blank" class="myButton fs-6 my-2">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <i class="fa-solid fa-link me-2"></i>
+                      <p class="m-0">Visitar</p>
+                    </div>
+                  </a>
+                  <a href="https://github.com/leandrofulco03/Phonix-E-commerce-React" target="_blank" class="myButton fs-6 my-2">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <i class="fa-brands fa-github me-2"></i>
+                      <p class="m-0">GitHub</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </article>
+            <article class="row article_light p-1 pb-4 p-md-4 bg-tertiary border-radius-1em d-flex justify-content-between align-items-center my-5">
+              <div class="project_img col-12 col-lg-5 my-4 my-lg-0">
+                <img src="img/motorsport.png" alt="motorsport">
+              </div>
+              <div class="project_description col-12 col-lg-7">
+                <h2 class="mb-3 fw-bold">
+                  MotorSport 🏎
+                  <span>Proyecto bajo el marco de CoderHouse</span>
+                </h2>
+                <p class="mb-4 mb-md-3">Proyecto final del módulo de JavaScript de CoderHouse.</p>
+                <p class="mb-5 mb-md-4">E-commerce enfocado en la venta de productos de partes de automóviles.</p>
+                <h3>Tecnologías utilizadas:</h3>
+                <ul class="mb-3 tech_used">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                  <li>Bootstrap</li>
+                </ul>
+                <div class="text-center text-md-start">
+                  <a href="https://leandrofulco03.github.io/MotorSport---Ecommerce/" target="_blank" class="myButton fs-6 my-2">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <i class="fa-solid fa-link me-2"></i>
+                      <p class="m-0">Visitar</p>
+                    </div>
+                  </a>
+                  <a href="https://github.com/leandrofulco03/MotorSport---Ecommerce" target="_blank" class="myButton fs-6 my-2">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <i class="fa-brands fa-github me-2"></i>
+                      <p class="m-0">GitHub</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </article>
+            <article class="row article_light p-1 pb-4 p-md-4 bg-tertiary border-radius-1em d-flex justify-content-between align-items-center">
+              <div class="project_img col-12 col-lg-5 my-4 my-lg-0">
+                <img src="img/kobragym.png" alt="kobragym">
+              </div>
+              <div class="project_description col-12 col-lg-7">
+                <h2 class="mb-3 fw-bold">
+                  KobraGym 💪
+                  <span>Proyecto bajo el marco de CoderHouse</span>
+                </h2>
+                <p class="mb-4 mb-md-3">Proyecto final del módulo de Desarrollo Web en CoderHouse.</p>
+                <p class="mb-5 mb-md-4">Página web enfocada en un gimnasio en la que tambien se puede adquirir diferentes productos y membresías.</p>
+                <h3>Tecnologías utilizadas:</h3>
+                <ul class="mb-3 tech_used">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>Bootstrap</li>
+                </ul>
+                <div class="text-center text-md-start">
+                  <a href="https://leandrofulco03.github.io/KobraGym-New-/" target="_blank" class="myButton fs-6 my-2">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <i class="fa-solid fa-link me-2"></i>
+                      <p class="m-0">Visitar</p>
+                    </div>
+                  </a>
+                  <a href="https://github.com/leandrofulco03/KobraGym-New-" target="_blank" class="myButton fs-6 my-2">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <i class="fa-brands fa-github me-2"></i>
+                      <p class="m-0">GitHub</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </article>
+            <article class="row article_light p-1 pb-4 p-md-4 bg-tertiary border-radius-1em d-flex justify-content-between align-items-center my-5">
+              <div class="project_img col-12 col-lg-5 my-4 my-lg-0">
+                <img src="img/todoapp.png" alt="todolist">
+              </div>
+              <div class="project_description col-12 col-lg-7">
+                <h2 class="mb-3 fw-bold">
+                  Lean´s Todo List📋
+                  <span>Proyecto autónomo</span>
+                </h2>
+                <p class="mb-5 mb-md-4">Página web sobre una lista de tareas personal, se puede añadir, eliminar y marcar una tarea como completada.</p>
+                <h3>Tecnologías utilizadas:</h3>
+                <ul class="mb-3 tech_used">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                </ul>
+                <div class="text-center text-md-start">
+                  <a href="https://leandrofulco03.github.io/ToDo-App/" target="_blank" class="myButton fs-6 my-2">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <i class="fa-solid fa-link me-2"></i>
+                      <p class="m-0">Visitar</p>
+                    </div>
+                  </a>
+                  <a href="https://github.com/leandrofulco03/ToDo-App" target="_blank" class="myButton fs-6 my-2">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <i class="fa-brands fa-github me-2"></i>
+                      <p class="m-0">GitHub</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <h1 class="fw-bold text-center">Contacto</h1>
+        <div class="contact_container light_container my-5 col-11 col-lg-9 p-3 p-md-4 p-xl-5 m-auto border-radius-1em">
+          <div class="row g-4">
+            <div class="col-12 col-md-6">
+              <a href="https://www.linkedin.com/in/leandrofulco/" target="_blank" class="p-4 bg-tertiary rounded-3 btn-contact d-flex justify-content-start align-items-center">
+                <i class="fa-brands fa-linkedin"></i>
+                <p class="m-0 fs-0 fs-md-5 mx-4">/leandrofulco</p>
+              </a>
+            </div>
+            <div class="col-12 col-md-6">
+              <a href="mailto:leandro.fulco@gmail.com" target="_blank" class="p-4 bg-tertiary rounded-3 btn-contact d-flex justify-content-start align-items-center">
+                <i class="fa-solid fa-envelope"></i>
+                <p class="m-0 fs-0 fs-md-5 mx-4">leandro.fulco@gmail.com</p>
+              </a>
+            </div>
+            <div class="col-12 col-md-6">
+              <a href="https://drive.google.com/file/d/1d5NDfeErmWI-ztU3MAcQ0tIar42U9g5K/view?usp=sharing" target="_blank" class="p-4 bg-tertiary rounded-3 btn-contact d-flex justify-content-start align-items-center">
+                <i class="fa-solid fa-file-invoice"></i>
+                <p class="m-0 fs-0 fs-md-5 mx-4">Curriculm Vitae</p>
+              </a>
+            </div>
+            <div class="col-12 col-md-6">
+              <a href="https://github.com/leandrofulco03" target="_blank" class="p-4 bg-tertiary rounded-3 btn-contact d-flex justify-content-start align-items-center">
+                <i class="fa-brands fa-github"></i>
+                <p class="m-0 fs-0 fs-md-5 mx-4">/leandrofulco03</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- BOOTSTRAP SCRIPT -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <!-- MAIN JS -->
+    <script src="main.js"></script>
+  </body>
+</body>
+</html>
