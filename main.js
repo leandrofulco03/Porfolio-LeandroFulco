@@ -28,7 +28,8 @@ const toggleBtn = document.getElementById('bdark');
 const body = document.querySelector('body');
 const article = document.querySelectorAll('.article_light');
 const navToggle = document.querySelector('.toggles');
-const toggleOn = document.getElementById('toggleOn')
+const toggleOn = document.getElementById('toggleOn');
+const langBtn = document.querySelector('.lang_btn')
 
 function darkmode() {
     body.classList.toggle('dark_mode');
@@ -53,3 +54,7 @@ if (valor == 'true') {
     body.classList.remove('dark_mode');
 }
 
+// English button
+function changeLanguage(language) {
+    document.documentElement.lang = language;
+}
