@@ -53,8 +53,3 @@ if (valor == 'true') {
 } else {
     body.classList.remove('dark_mode');
 }
-
-// English button
-function changeLanguage(language) {
-    document.documentElement.lang = language;
-}
